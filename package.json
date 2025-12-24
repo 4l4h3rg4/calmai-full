@@ -1,0 +1,14 @@
+{
+    "name": "calmai-root",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm -r --parallel dev",
+        "build": "pnpm -r build",
+        "lint": "pnpm -r lint",
+        "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules"
+    },
+    "devDependencies": {
+        "turbo": "latest"
+    }
+}
